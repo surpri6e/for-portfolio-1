@@ -10,12 +10,14 @@
 //! Base styles for site
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   background-color: $bg;
   height: 100%;
   color: $txt;
+  overflow-x: hidden;
 }
 
 .page {
