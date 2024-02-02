@@ -1,0 +1,122 @@
+.consultation {
+    padding: 100px 0;
+}
+
+.consultation_body {
+    background-color: $white;
+    padding: 32px;
+    border-radius: 20px;
+}
+.consultation_plashka {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.cp_left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.cp_title {
+    margin-bottom: 10px;
+    width: 500px;
+}
+.title_text {
+    margin-bottom: 30px;
+}
+.cp_form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.prefix {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+}
+
+.input-tel {
+    border: 1px solid #E5E5E5;
+    width: 65%;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Golos Text', sans-serif;
+}
+.btn {
+    height: 58px;
+    min-width: 220px;
+    color: $white;
+    cursor: pointer;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 150ms linear;
+
+    &:hover {
+        background-color: darken($blue, 5);
+    }
+}
+.cp_end {
+    display: flex;
+    align-items: center;
+    &-text {
+        font-size: 16px;
+        color: #A5B2BF;
+        margin-bottom: 0;
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.input-end {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+}
+
+
+.right {
+    background-color: #F4F6F8;
+    padding: 24px;
+    border-radius: 20px;
+}
+.cp_item {
+    border-radius: 8px;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    &-1 {
+        margin-bottom: 15px;
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
+.cp_item_title {
+    color: #229ED9;
+    font-size: 18px;
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.cp_item_title-green {
+    color: #08B419;
+}

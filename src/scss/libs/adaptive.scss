@@ -1,0 +1,177 @@
+@media screen and (max-width: $bp1) {
+    .footer_services {
+        display: none;
+    }
+    .footer {
+        height: 155px;
+    }
+    .cp_form {
+        justify-content: start;
+    }
+    .btn {
+        width: 35%;
+        margin-left: 15px;
+    }
+    .about_services_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $bp2) {
+    .header_services{
+        display: none;
+    }
+    .header_info {
+        display: none;
+    }
+    .menu {
+        visibility: visible;
+        display: block;
+    }
+    .about_services {
+        flex-direction: column;
+        & > *:not(:last-child) {
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
+
+        &__item {
+            min-height: 80px;
+        }
+    }
+
+    .add_body {
+        flex-direction: column;
+    }
+    .add_left {
+        width: 100%;
+    }
+    .add_right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $bp3) {
+    .renta_sun {
+        display: none;
+    }
+    .drent_snow {
+        display: none;
+    }
+    .mountain_info {
+        width: 400px;
+        min-height: auto;
+        &_title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+
+    .last-image {
+        img {
+            border-radius: 50px 50px 0 0;
+            z-index: -100;
+            height: 1500px;
+        }
+    }
+    .footer {
+        height: 45px;
+    }
+    .footer_endless {
+        padding: 0;
+    }
+    .footer_info {
+        display: none;
+    }
+    .cp_left {
+        margin-right: 0px;
+    }
+    .consultation_plashka {
+        flex-direction: column;
+        & > *:not(:last-child) {
+            margin-bottom: 35px;
+        }
+    }
+
+    .blog_posts {
+        flex-direction: column;
+        & > *:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        &-in {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .blog-item {
+        width: 100%;
+    }
+    .blog-image {
+        min-height: 190px;
+    }
+}
+
+@media screen and (max-width: $bp4) {
+    .drent_first {
+        flex-direction: column;
+        & > *:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        & > * {
+            width: 100%;
+        }
+    }
+    .cp_form {
+        flex-direction: column;
+    }
+    .input-tel {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .renta_services {
+        flex-direction: column;
+        & > *:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+    }
+    .renta__items {
+        width: 100%;
+    }
+    .drent_second {
+        & > *:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+    .last-image {
+        img {
+            border-radius: 50px 50px 0 0;
+            z-index: -100;
+            height: 1800px;
+        }
+    }
+    .cp_title {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: $bp5) {
+    .mountain_info {
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin: 0px;
+
+        &_title {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+}

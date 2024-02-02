@@ -1,0 +1,78 @@
+//! It's the start file
+@import 'nulls';
+@import 'vars';
+@import 'mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@700&display=swap');
+
+//! Base styles for site
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $bg;
+  height: 100%;
+  color: $txt;
+}
+
+.page {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 400;
+  @include adapFont(16, 14);
+  font-family: 'Golos Text', sans-serif;
+  line-height: 1;
+}
+
+._Container {
+  height: 100%;
+  max-width: $widthContainer;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+._Ibg {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Onest', sans-serif;
+  margin-bottom: 25px;
+  & > span {
+    color: $blue;
+  }
+}
+
+//? Blocks site
+@import './libs/header';
+@import './libs/footer';
+@import './libs/about';
+@import './libs/renta';
+@import './libs/drent';
+@import './libs/last';
+@import './libs/consultation';
+@import './libs/blog';
+@import './libs/add';
+@import './libs/news';
+@import './libs/adaptive';

@@ -1,0 +1,35 @@
+.last {
+    margin-bottom: -40px;
+    border-radius: 50px;
+    padding: 150px 0;
+}
+
+.last-image {
+    img {
+        border-radius: 50px 50px 0 0;
+        z-index: -100;
+        height: 860px;
+    }
+}
+
+.last_info {
+    padding: 48px;
+    border-radius: 30px;
+    background-color: $white;
+    max-width: 834px;
+}
+.title_text {
+    color: $txt2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    span, a {
+        color: $blue;
+        font-weight: 600;
+    }
+    &-1 {
+        margin-bottom: 15px;
+    }
+}
+
+

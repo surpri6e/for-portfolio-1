@@ -1,0 +1,23 @@
+.add {
+    padding-top: 100px;
+}
+
+.add-text {
+    background-color: $white;
+}
+
+
+.add_body {
+    display: flex;
+}
+.add_left {
+    width: 35%;
+}
+.add_right {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    & > *:nth-child(odd) {
+        margin-right: 15px;
+    }
+}

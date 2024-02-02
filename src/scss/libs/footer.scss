@@ -1,0 +1,138 @@
+// Styles
+
+.footer {
+    height: 250px;
+    background-color: $txt;
+    border-radius: 50px 50px 0 0;
+    z-index: 1000;
+}
+
+.footer_title {
+    color: $white;
+    justify-content: start;
+}
+
+.footer_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    & > * {
+        width: 100%;
+    }
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 25px;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    & > *:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+}
+
+.footer_icons {
+    margin-right: 15px;
+    border-radius: 8px;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #42484E;
+    transition: all 150ms linear;
+
+    &:hover {
+        background-color: darken(#42484E, 5);
+    }
+}
+
+.footer_icons_second {
+    margin-right: 10px;
+}
+
+.footer_info_link {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.place {
+    font-size: 16px;
+    font-weight: 500;
+    color: $white;
+}
+
+.weonmap {
+    font-size: 13px;
+    font-weight: 500;
+    color: $lb;
+}
+
+.footer_arrow {
+    display: block;
+    margin-top: 1px;
+}
+
+.footer_services {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > *:not(:last-child) {
+        margin-right: 10px;
+    }
+    border-bottom: 1px solid #42484E;
+    border-top: 1px solid #42484E;
+
+}
+
+.footer_services_list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer_services__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42484E;
+    color: $white;
+    height: 35px;
+    min-width: 180px;
+    border-radius: 58px;
+    cursor: pointer;
+    transition: all 150ms linear;
+
+    &:hover {
+        background-color: darken(#42484E, 5);
+    }
+}
+
+.footer__link {
+    color: inherit;
+}
+
+.footer_endless {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #42484E;
+    padding-top: 20px;
+    font-size: 14px;
+}

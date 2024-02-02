@@ -1,0 +1,73 @@
+.about_body {
+    padding: 30px 0;
+}
+
+.bimage {
+    height: 560px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.mountain_info {
+    position: absolute;
+    background-color: $white;
+    z-index: 100;
+    border-radius: 20px;
+    max-width: 700px;
+    min-height: 300px;
+    margin-top: 35px;
+    margin-left: 35px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.mountain_info_title {
+    font-family: 'Onest', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    & > span {
+        color: $blue;
+    }
+    margin-bottom: 15px;
+    line-height: 57.2px;
+}
+
+.mountain_info_subtitle {
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.about_services {
+    display: flex;
+    justify-content: space-between;
+    & > *:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+.about_services__item {
+    min-height: 112px;
+    border-radius: 15px;
+    background-color: $white;
+    padding: 24px;
+    display: flex;
+}
+
+.about_services {
+    &_title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+    &_subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: $txt2;
+    }
+}
+.about_services_img {
+    width: 48.35px;
+    height: 42px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
